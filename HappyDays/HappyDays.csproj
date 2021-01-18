@@ -10,8 +10,12 @@
     <!-- Optional: Build symbol package (.snupkg) to distribute the PDB containing Source Link -->
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <RepositoryUrl>https://github.com/afernaca/HappyDays</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Copyright>everis Centers</Copyright>
+    <Description>Proyecto de ejemplo para generación de paquete NuGet con símbolos de depuración</Description>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
 </Project>
